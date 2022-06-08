@@ -33,7 +33,8 @@ function HooksAutoCounter() {
     setCount(count + 1);
   }; */
 
-  //Another Method is where 
+  //Another Method is where the dependencies function declaration (in this case autoIncrement) is made
+  //Within the useEffect code block or wrap it inside its own useCallback function
 
   return (
     <div>
